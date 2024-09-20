@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body></body>
+</html>
+
+
+img src="hq.img"
+used to insert images in html
+when we adjust width of image, height also changes
+
+object-position: top/bottom/left/right;
+to position the image within the given h/w
+object-fit:contain;
+to contain the image within given height/width
+
+<input> is a void element
+<input type="text"> will give us a textbox
+<input type="check
+placeholder attribute acts as a text that guides a user what to do and guides its value
+
+block elements take an entire line
+ex- <p>
+
+inline-block element takes only the desired space
+
+inline element appears within a line of text
+
+if we wanna display same style in diff elements we can use comma 
+
+.boxraw,
+.bw {
+    display: inline-block;
+}
+
+
+<div> is an element that acts as a container for other elements 
+in order to build complex real world websites we need containers and div is the perfect solution to this problem
+As it can be used to contain other elements
+
+
+To center an image, set left and right margin to auto and make it into a block element:
+
+Example
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+divs have width of 100% so if we want our elements on webpage next to each other we need to decrease the width of 
+the divs
+
+to round an image we set the border-radius and widthh and adjust it
+
+when we set grid-template-coloumns to 1fr the space bw inline block element disappears
+
+display:grid for displaying a div as grid
+grid-template-coloumns: for how much spacce the grid takes
+coloumn-gap & row-gap for gaps bw coloumns and rows
